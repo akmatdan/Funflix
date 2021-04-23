@@ -30,7 +30,7 @@ struct SettingsView: View {
                 }
                 
                 Button(action: {
-                    
+                    isPresented.toggle()
                 }) {
                     Text("Save")
                 }
@@ -41,6 +41,6 @@ struct SettingsView: View {
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
+        SettingsView(isPresented: Binding<Bool>.constant(false))
     }
 }
