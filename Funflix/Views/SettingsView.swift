@@ -9,6 +9,8 @@ import SwiftUI
 
 struct SettingsView: View {
     
+    @Binding var isPresented: Bool
+    
     @State private var selection = 1
     @State private var email = ""
     
