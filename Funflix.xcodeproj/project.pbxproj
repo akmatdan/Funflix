@@ -13,6 +13,8 @@
 		E33A675126330E3400C804C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33A675026330E3400C804C6 /* Preview Assets.xcassets */; };
 		E33A675F2633120E00C804C6 /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A675E2633120E00C804C6 /* HomeTabView.swift */; };
 		E33A676326331C3D00C804C6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A676226331C3D00C804C6 /* SettingsView.swift */; };
+		E33A676626354E2600C804C6 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A676526354E2600C804C6 /* MoviesView.swift */; };
+		E33A676D26366D6300C804C6 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A676C26366D6300C804C6 /* DiscoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E33A675226330E3400C804C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E33A675E2633120E00C804C6 /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		E33A676226331C3D00C804C6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E33A676526354E2600C804C6 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		E33A676C26366D6300C804C6 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +91,10 @@
 		E33A675B2633119500C804C6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E33A675E2633120E00C804C6 /* HomeTabView.swift */,
 				E33A676226331C3D00C804C6 /* SettingsView.swift */,
+				E33A675E2633120E00C804C6 /* HomeTabView.swift */,
+				E33A676526354E2600C804C6 /* MoviesView.swift */,
+				E33A676C26366D6300C804C6 /* DiscoverView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,10 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33A676626354E2600C804C6 /* MoviesView.swift in Sources */,
 				E33A675F2633120E00C804C6 /* HomeTabView.swift in Sources */,
 				E33A676326331C3D00C804C6 /* SettingsView.swift in Sources */,
 				E33A674C26330E2E00C804C6 /* ContentView.swift in Sources */,
 				E33A674A26330E2E00C804C6 /* FunflixApp.swift in Sources */,
+				E33A676D26366D6300C804C6 /* DiscoverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
