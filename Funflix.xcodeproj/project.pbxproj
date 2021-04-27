@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		E33A676D26366D6300C804C6 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A676C26366D6300C804C6 /* DiscoverView.swift */; };
 		E34289552638556E002EF4CA /* Cast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34289542638556E002EF4CA /* Cast.swift */; };
 		E3428958263856FF002EF4CA /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3428957263856FF002EF4CA /* Review.swift */; };
+		E342895C26385AA7002EF4CA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E342895B26385AA7002EF4CA /* Alamofire */; };
+		E342895F26385AC6002EF4CA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342895E26385AC6002EF4CA /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		E33A676C26366D6300C804C6 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		E34289542638556E002EF4CA /* Cast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cast.swift; sourceTree = "<group>"; };
 		E3428957263856FF002EF4CA /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		E342895E26385AC6002EF4CA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E342895C26385AA7002EF4CA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +122,7 @@
 		E33A675D263311A500C804C6 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				E342895E26385AC6002EF4CA /* NetworkManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -138,6 +143,9 @@
 			dependencies = (
 			);
 			name = Funflix;
+			packageProductDependencies = (
+				E342895B26385AA7002EF4CA /* Alamofire */,
+			);
 			productName = Funflix;
 			productReference = E33A674626330E2E00C804C6 /* Funflix.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +173,9 @@
 				Base,
 			);
 			mainGroup = E33A673D26330E2E00C804C6;
+			packageReferences = (
+				E342895A26385AA7002EF4CA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = E33A674726330E2E00C804C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -193,6 +204,7 @@
 			files = (
 				E34289552638556E002EF4CA /* Cast.swift in Sources */,
 				E3209F122637D09C00C45DA2 /* Movie.swift in Sources */,
+				E342895F26385AC6002EF4CA /* NetworkManager.swift in Sources */,
 				E3428958263856FF002EF4CA /* Review.swift in Sources */,
 				E33A676626354E2600C804C6 /* MoviesView.swift in Sources */,
 				E33A675F2633120E00C804C6 /* HomeTabView.swift in Sources */,
@@ -388,6 +400,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E342895A26385AA7002EF4CA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E342895B26385AA7002EF4CA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E342895A26385AA7002EF4CA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E33A673E26330E2E00C804C6 /* Project object */;
 }
