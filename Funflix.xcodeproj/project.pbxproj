@@ -20,6 +20,7 @@
 		E3428958263856FF002EF4CA /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3428957263856FF002EF4CA /* Review.swift */; };
 		E342895C26385AA7002EF4CA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E342895B26385AA7002EF4CA /* Alamofire */; };
 		E342895F26385AC6002EF4CA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342895E26385AC6002EF4CA /* NetworkManager.swift */; };
+		E34289622638678C002EF4CA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34289612638678C002EF4CA /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E34289542638556E002EF4CA /* Cast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cast.swift; sourceTree = "<group>"; };
 		E3428957263856FF002EF4CA /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		E342895E26385AC6002EF4CA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E34289612638678C002EF4CA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				E342895E26385AC6002EF4CA /* NetworkManager.swift */,
+				E34289612638678C002EF4CA /* API.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34289622638678C002EF4CA /* API.swift in Sources */,
 				E34289552638556E002EF4CA /* Cast.swift in Sources */,
 				E3209F122637D09C00C45DA2 /* Movie.swift in Sources */,
 				E342895F26385AC6002EF4CA /* NetworkManager.swift in Sources */,
