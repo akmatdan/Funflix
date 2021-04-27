@@ -16,6 +16,8 @@
 		E33A676326331C3D00C804C6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A676226331C3D00C804C6 /* SettingsView.swift */; };
 		E33A676626354E2600C804C6 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A676526354E2600C804C6 /* MoviesView.swift */; };
 		E33A676D26366D6300C804C6 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A676C26366D6300C804C6 /* DiscoverView.swift */; };
+		E34289552638556E002EF4CA /* Cast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34289542638556E002EF4CA /* Cast.swift */; };
+		E3428958263856FF002EF4CA /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3428957263856FF002EF4CA /* Review.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E33A676226331C3D00C804C6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E33A676526354E2600C804C6 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
 		E33A676C26366D6300C804C6 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		E34289542638556E002EF4CA /* Cast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cast.swift; sourceTree = "<group>"; };
+		E3428957263856FF002EF4CA /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				E3209F112637D09C00C45DA2 /* Movie.swift */,
+				E34289542638556E002EF4CA /* Cast.swift */,
+				E3428957263856FF002EF4CA /* Review.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,7 +191,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34289552638556E002EF4CA /* Cast.swift in Sources */,
 				E3209F122637D09C00C45DA2 /* Movie.swift in Sources */,
+				E3428958263856FF002EF4CA /* Review.swift in Sources */,
 				E33A676626354E2600C804C6 /* MoviesView.swift in Sources */,
 				E33A675F2633120E00C804C6 /* HomeTabView.swift in Sources */,
 				E33A676326331C3D00C804C6 /* SettingsView.swift in Sources */,
