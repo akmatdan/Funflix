@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3209F122637D09C00C45DA2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3209F112637D09C00C45DA2 /* Movie.swift */; };
 		E33A674A26330E2E00C804C6 /* FunflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A674926330E2E00C804C6 /* FunflixApp.swift */; };
 		E33A674C26330E2E00C804C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A674B26330E2E00C804C6 /* ContentView.swift */; };
 		E33A674E26330E3400C804C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33A674D26330E3400C804C6 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3209F112637D09C00C45DA2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		E33A674626330E2E00C804C6 /* Funflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Funflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33A674926330E2E00C804C6 /* FunflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunflixApp.swift; sourceTree = "<group>"; };
 		E33A674B26330E2E00C804C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		E33A675C263311A000C804C6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E3209F112637D09C00C45DA2 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3209F122637D09C00C45DA2 /* Movie.swift in Sources */,
 				E33A676626354E2600C804C6 /* MoviesView.swift in Sources */,
 				E33A675F2633120E00C804C6 /* HomeTabView.swift in Sources */,
 				E33A676326331C3D00C804C6 /* SettingsView.swift in Sources */,
