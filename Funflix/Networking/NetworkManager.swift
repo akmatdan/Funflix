@@ -22,6 +22,7 @@ final class NetworkManager<T: Codable> {
                 completion(.success(payload))
                 return
             }
+            
             completion(.failure(.nilResponse))
         }
     }

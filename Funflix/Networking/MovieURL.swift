@@ -9,7 +9,7 @@ import Foundation
 
 enum MovieURL: String {
     case nowPlaying = "now_playing"
-    case upciming = "upcoming"
+    case upcoming = "upcoming"
     case popular = "popular"
     
     public var urlSting: String {

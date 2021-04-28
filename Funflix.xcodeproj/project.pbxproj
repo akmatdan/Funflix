@@ -22,6 +22,7 @@
 		E342895F26385AC6002EF4CA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342895E26385AC6002EF4CA /* NetworkManager.swift */; };
 		E34289622638678C002EF4CA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34289612638678C002EF4CA /* API.swift */; };
 		E3428965263868FF002EF4CA /* MovieURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3428964263868FF002EF4CA /* MovieURL.swift */; };
+		E342896826391723002EF4CA /* MovieDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342896726391723002EF4CA /* MovieDownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		E342895E26385AC6002EF4CA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		E34289612638678C002EF4CA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		E3428964263868FF002EF4CA /* MovieURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieURL.swift; sourceTree = "<group>"; };
+		E342896726391723002EF4CA /* MovieDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				E342895E26385AC6002EF4CA /* NetworkManager.swift */,
 				E34289612638678C002EF4CA /* API.swift */,
 				E3428964263868FF002EF4CA /* MovieURL.swift */,
+				E342896726391723002EF4CA /* MovieDownloadManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				E3209F122637D09C00C45DA2 /* Movie.swift in Sources */,
 				E342895F26385AC6002EF4CA /* NetworkManager.swift in Sources */,
 				E3428958263856FF002EF4CA /* Review.swift in Sources */,
+				E342896826391723002EF4CA /* MovieDownloadManager.swift in Sources */,
 				E33A676626354E2600C804C6 /* MoviesView.swift in Sources */,
 				E33A675F2633120E00C804C6 /* HomeTabView.swift in Sources */,
 				E33A676326331C3D00C804C6 /* SettingsView.swift in Sources */,
