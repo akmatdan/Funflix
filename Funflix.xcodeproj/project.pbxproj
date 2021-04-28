@@ -21,6 +21,7 @@
 		E342895C26385AA7002EF4CA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E342895B26385AA7002EF4CA /* Alamofire */; };
 		E342895F26385AC6002EF4CA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342895E26385AC6002EF4CA /* NetworkManager.swift */; };
 		E34289622638678C002EF4CA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34289612638678C002EF4CA /* API.swift */; };
+		E3428965263868FF002EF4CA /* MovieURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3428964263868FF002EF4CA /* MovieURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E3428957263856FF002EF4CA /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		E342895E26385AC6002EF4CA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		E34289612638678C002EF4CA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E3428964263868FF002EF4CA /* MovieURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			children = (
 				E342895E26385AC6002EF4CA /* NetworkManager.swift */,
 				E34289612638678C002EF4CA /* API.swift */,
+				E3428964263868FF002EF4CA /* MovieURL.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				E33A676626354E2600C804C6 /* MoviesView.swift in Sources */,
 				E33A675F2633120E00C804C6 /* HomeTabView.swift in Sources */,
 				E33A676326331C3D00C804C6 /* SettingsView.swift in Sources */,
+				E3428965263868FF002EF4CA /* MovieURL.swift in Sources */,
 				E33A674C26330E2E00C804C6 /* ContentView.swift in Sources */,
 				E33A674A26330E2E00C804C6 /* FunflixApp.swift in Sources */,
 				E33A676D26366D6300C804C6 /* DiscoverView.swift in Sources */,
