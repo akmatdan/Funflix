@@ -23,6 +23,7 @@
 		E34289622638678C002EF4CA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34289612638678C002EF4CA /* API.swift */; };
 		E3428965263868FF002EF4CA /* MovieURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3428964263868FF002EF4CA /* MovieURL.swift */; };
 		E342896826391723002EF4CA /* MovieDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342896726391723002EF4CA /* MovieDownloadManager.swift */; };
+		E3E04DCF2639259300F1EEDE /* MovieReviewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E04DCE2639259300F1EEDE /* MovieReviewsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E34289612638678C002EF4CA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		E3428964263868FF002EF4CA /* MovieURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieURL.swift; sourceTree = "<group>"; };
 		E342896726391723002EF4CA /* MovieDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDownloadManager.swift; sourceTree = "<group>"; };
+		E3E04DCE2639259300F1EEDE /* MovieReviewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReviewsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				E34289612638678C002EF4CA /* API.swift */,
 				E3428964263868FF002EF4CA /* MovieURL.swift */,
 				E342896726391723002EF4CA /* MovieDownloadManager.swift */,
+				E3E04DCE2639259300F1EEDE /* MovieReviewsManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				E342896826391723002EF4CA /* MovieDownloadManager.swift in Sources */,
 				E33A676626354E2600C804C6 /* MoviesView.swift in Sources */,
 				E33A675F2633120E00C804C6 /* HomeTabView.swift in Sources */,
+				E3E04DCF2639259300F1EEDE /* MovieReviewsManager.swift in Sources */,
 				E33A676326331C3D00C804C6 /* SettingsView.swift in Sources */,
 				E3428965263868FF002EF4CA /* MovieURL.swift in Sources */,
 				E33A674C26330E2E00C804C6 /* ContentView.swift in Sources */,
