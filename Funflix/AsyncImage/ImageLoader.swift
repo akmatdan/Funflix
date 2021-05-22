@@ -24,13 +24,12 @@ final class ImageLoader: ObservableObject {
         self.cache = cache
     }
     
+    deinit {
+        cancel()
+    }
     
     func cancel() {
         cancellable?.cancel()
-    }
-    
-    deinit {
-        cancel()
     }
     
     func load() {
