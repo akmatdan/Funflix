@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30651D3264C153700EF3022 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30651D2264C153700EF3022 /* ImageCache.swift */; };
 		E3209F122637D09C00C45DA2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3209F112637D09C00C45DA2 /* Movie.swift */; };
 		E33A674A26330E2E00C804C6 /* FunflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A674926330E2E00C804C6 /* FunflixApp.swift */; };
 		E33A674C26330E2E00C804C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33A674B26330E2E00C804C6 /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E30651D2264C153700EF3022 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		E3209F112637D09C00C45DA2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		E33A674626330E2E00C804C6 /* Funflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Funflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33A674926330E2E00C804C6 /* FunflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunflixApp.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				E3E04DD1263928F400F1EEDE /* ImageLoader.swift */,
+				E30651D2264C153700EF3022 /* ImageCache.swift */,
 			);
 			path = AsyncImage;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			files = (
 				E34289622638678C002EF4CA /* API.swift in Sources */,
 				E34289552638556E002EF4CA /* Cast.swift in Sources */,
+				E30651D3264C153700EF3022 /* ImageCache.swift in Sources */,
 				E3E04DD2263928F400F1EEDE /* ImageLoader.swift in Sources */,
 				E3209F122637D09C00C45DA2 /* Movie.swift in Sources */,
 				E342895F26385AC6002EF4CA /* NetworkManager.swift in Sources */,
