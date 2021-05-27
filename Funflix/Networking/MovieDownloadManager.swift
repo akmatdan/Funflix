@@ -11,7 +11,7 @@ final class MovieDownloadManager: ObservableObject {
     @Published var movies = [Movie]()
     @Published var cast = [Cast]()
     
-    static var baseURL = "https://api.themoviedb.org/3/movie"
+    static var baseURL = "https://api.themoviedb.org/3/movie/"
     
     func getNowPlaying() {
         getMovies(movieURL: .nowPlaying)

@@ -13,11 +13,7 @@ struct ImageCacheKey: EnvironmentKey {
 
 extension EnvironmentValues {
     var imageCache: ImageCache {
-        get {
-            self[ImageCacheKey.self]
-        }
-        set {
-            self[ImageCacheKey.self] = newValue
-        }
+        get { self[ImageCacheKey.self] }
+        set { self[ImageCacheKey.self] = newValue }
     }
 }
