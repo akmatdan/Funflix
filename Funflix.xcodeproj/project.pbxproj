@@ -26,6 +26,7 @@
 		E342896826391723002EF4CA /* MovieDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E342896726391723002EF4CA /* MovieDownloadManager.swift */; };
 		E3E04DCF2639259300F1EEDE /* MovieReviewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E04DCE2639259300F1EEDE /* MovieReviewsManager.swift */; };
 		E3E04DD2263928F400F1EEDE /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E04DD1263928F400F1EEDE /* ImageLoader.swift */; };
+		E3F61B42265F696200C81CD4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F61B41265F696200C81CD4 /* MovieCell.swift */; };
 		E3FB3E2F2658D8890022E461 /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB3E2E2658D8890022E461 /* EnvironmentValues+ImageCache.swift */; };
 		E3FB3E322658E8950022E461 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FB3E312658E8950022E461 /* AsyncImage.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		E342896726391723002EF4CA /* MovieDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDownloadManager.swift; sourceTree = "<group>"; };
 		E3E04DCE2639259300F1EEDE /* MovieReviewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReviewsManager.swift; sourceTree = "<group>"; };
 		E3E04DD1263928F400F1EEDE /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		E3F61B41265F696200C81CD4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		E3FB3E2E2658D8890022E461 /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
 		E3FB3E312658E8950022E461 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +127,7 @@
 				E33A675E2633120E00C804C6 /* HomeTabView.swift */,
 				E33A676526354E2600C804C6 /* MoviesView.swift */,
 				E33A676C26366D6300C804C6 /* DiscoverView.swift */,
+				E3F61B41265F696200C81CD4 /* MovieCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				E3E04DCF2639259300F1EEDE /* MovieReviewsManager.swift in Sources */,
 				E3FB3E2F2658D8890022E461 /* EnvironmentValues+ImageCache.swift in Sources */,
 				E33A676326331C3D00C804C6 /* SettingsView.swift in Sources */,
+				E3F61B42265F696200C81CD4 /* MovieCell.swift in Sources */,
 				E3428965263868FF002EF4CA /* MovieURL.swift in Sources */,
 				E33A674C26330E2E00C804C6 /* ContentView.swift in Sources */,
 				E33A674A26330E2E00C804C6 /* FunflixApp.swift in Sources */,
