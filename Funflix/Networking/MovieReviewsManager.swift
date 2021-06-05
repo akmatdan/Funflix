@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-final class MovieReviewsManager: ObservableObject {
+final class MovieReviewManager: ObservableObject {
     @Published var reviews = [Review]()
     
     private var movie: Movie

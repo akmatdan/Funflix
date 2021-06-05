@@ -23,11 +23,11 @@ struct Movie: Codable, Identifiable {
     var vote_count: Int?
     var video: Bool?
     var adult: Bool?
-    var release_data: String?
-    
+    var release_date: String?
+
     var posterPath: String {
         if let path = poster_path {
-            return "hhtp://image.tmdb.org/t/p/original/\(path)"
+            return "https://image.tmdb.org/t/p/original/\(path)"
         }
         return ""
     }
