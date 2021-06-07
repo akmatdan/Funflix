@@ -32,7 +32,7 @@ struct Movie: Codable, Identifiable {
         return ""
     }
     
-    var voteAverage: Double {
+    var voteAvarage: Double {
         if let avg = vote_avarage {
             return avg / 10.0
         }

@@ -57,7 +57,7 @@ struct MovieCell: View {
     private var movieVotes: some View {
         ZStack {
             Circle()
-                .trim(from: 0, to: CGFloat(movie.voteAverage))
+                .trim(from: 0, to: CGFloat(movie.voteAvarage))
                 .stroke(Color.orange, lineWidth: 4)
                 .frame(width: 50)
                 .rotationEffect(.degrees(-90))
