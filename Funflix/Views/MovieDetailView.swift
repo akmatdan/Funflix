@@ -82,7 +82,7 @@ struct MovieDetailView: View {
     }
     
     private var reviewLink: some View {
-        ZStack {
+        VStack {
             Divider()
             NavigationLink(destination: Text("Some review")) {
                 HStack {
@@ -111,10 +111,25 @@ struct MovieDetailView: View {
                                 Image(uiImage: img)
                                     .resizable()
                             }
+                            .frame(width: 100, height: 160)
+                            .animation(.easeIn(duration: 0.5))
+                            .transition(.opacity)
+                            .scaledToFill()
+                            .cornerRadius(15)
+                            .shadow(radius: 15)
+                            
+                            Text("\(cast.name ?? "-") as \(cast.character ?? "-")")
+                                .font(.caption)
+                                .foregroundColor(.white)
+                                .frame(width: 100)
+                                .fixedSize(horizontal: false, vertical: true)
                         }
                     }
                 }
             }
+        }
+        .onAppear() {
+            movieManager.getCast(for: movie)
         }
     }
 }
