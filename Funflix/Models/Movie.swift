@@ -19,7 +19,7 @@ struct Movie: Codable, Identifiable {
     var poster_path: String?
     var backdrop_path: String?
     var popularity: Double?
-    var vote_avarage: Double?
+    var vote_average: Double?
     var vote_count: Int?
     var video: Bool?
     var adult: Bool?
@@ -32,8 +32,8 @@ struct Movie: Codable, Identifiable {
         return ""
     }
     
-    var voteAvarage: Double {
-        if let avg = vote_avarage {
+    var voteAverage: Double {
+        if let avg = vote_average {
             return avg / 10.0
         }
         return 0.0

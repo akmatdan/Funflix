@@ -25,6 +25,8 @@ struct MovieCell: View {
                     
                     movieReleaseDate
                 }
+                
+                movieOverview
             }
         }
     }
@@ -57,7 +59,7 @@ struct MovieCell: View {
     private var movieVotes: some View {
         ZStack {
             Circle()
-                .trim(from: 0, to: CGFloat(movie.voteAvarage))
+                .trim(from: 0, to: CGFloat(movie.voteAverage))
                 .stroke(Color.orange, lineWidth: 4)
                 .frame(width: 50)
                 .rotationEffect(.degrees(-90))
@@ -66,7 +68,7 @@ struct MovieCell: View {
                 .stroke(Color.orange.opacity(0.2), lineWidth: 4)
                 .frame(width: 50)
                 .rotationEffect(.degrees(-90))
-            Text(String.init(format: "%0.2f", movie.vote_avarage ?? 0.0))
+            Text(String.init(format: "%0.2f", movie.vote_average ?? 0.0))
                 .foregroundColor(.orange)
                 .font(.subheadline)
         }.frame(height: 80)
@@ -76,5 +78,11 @@ struct MovieCell: View {
         Text(movie.release_date ?? "")
             .foregroundColor(.black)
             .font(.subheadline)
+    }
+    
+    private var movieOverview: some View {
+        Text(movie.overview ?? "")
+            .font(.body)
+            .foregroundColor(Color.gray)
     }
 }
